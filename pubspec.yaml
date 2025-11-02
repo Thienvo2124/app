@@ -1,0 +1,36 @@
+name: dat_ban_nha_hang
+description: A Flutter app for restaurant discovery & booking
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  shared_preferences: ^2.3.2
+
+  # Firebase (để sẵn cho tương lai; không dùng cũng không sao)
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.1.4
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.2.0
+
+  # Khác
+  image_picker: ^1.1.2
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  # Nếu có asset ảnh, bật phần này:
+  # assets:
+  #   - hinh_anh/
